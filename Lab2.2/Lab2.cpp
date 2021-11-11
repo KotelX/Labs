@@ -7,7 +7,7 @@ int main()
     setlocale(LC_ALL, "Russian");
     int key;
 	cout << "Нажмите одну из курсорных клавиш" << endl;
-	while (true) 
+	while (true) //Сделать проверку по коду клавиши Esc
 	{
 		key = _getch();
 		switch (key)
